@@ -1,5 +1,5 @@
 var should = require('chai').should();
-var oanda = require('../index');
+var oanda = require('../lib/oanda');
 
 describe('#version', function() {
   it('should be 1.0.0', function() {

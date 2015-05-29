@@ -1,3 +1,3 @@
-module.exports = {
-  version: "1.0.0"
-};
+var oanda = require("./lib/oanda");
+
+module.exports = oanda;

@@ -4,7 +4,9 @@
   "description": "OANDA REST API implementation",
   "main": "index.js",
   "scripts": {
-    "test": "node_modules/.bin/mocha"
+    "test": "node_modules/.bin/mocha",
+    "test:watch": "node_modules/.bin/mocha -w",
+    "coverage": "./node_modules/istanbul/lib/cli.js cover ./node_modules/mocha/bin/_mocha -- --ui bdd -R spec -t 5000"
   },
   "repository": {
     "type": "git",
@@ -23,6 +25,10 @@
   "homepage": "https://github.com/ChrisKdon/oanda-node",
   "devDependencies": {
     "chai": "^2.3.0",
+    "istanbul": "^0.3.14",
     "mocha": "^2.2.5"
+  },
+  "dependencies": {
+    "restler": "^3.2.2"
   }
 }
