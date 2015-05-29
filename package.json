@@ -1,0 +1,28 @@
+{
+  "name": "oanda-node",
+  "version": "1.0.0",
+  "description": "OANDA REST API implementation",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ChrisKdon/oanda-node"
+  },
+  "keywords": [
+    "oanda",
+    "forex",
+    "trading"
+  ],
+  "author": "Chris Kellendonk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChrisKdon/oanda-node/issues"
+  },
+  "homepage": "https://github.com/ChrisKdon/oanda-node",
+  "devDependencies": {
+    "chai": "^2.3.0",
+    "mocha": "^2.2.5"
+  }
+}
