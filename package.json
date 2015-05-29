@@ -1,5 +1,5 @@
 {
-  "name": "oanda-node",
+  "name": "oanda",
   "version": "1.0.0",
   "description": "OANDA REST API implementation",
   "main": "index.js",
