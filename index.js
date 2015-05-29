@@ -1,3 +1,11 @@
-var oanda = require("./lib/oanda");
+var Oanda = require("./lib/oanda");
 
-module.exports = oanda;
+var test = new Oanda('https://api-sandbox.oanda.com/');
+
+test.rates().candles({
+  "instrument": "EUR_USD"
+}).on('complete', function(result, response) {
+  console.log(result);
+});
+
+module.exports = Oanda;

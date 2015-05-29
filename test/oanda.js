@@ -1,8 +1,8 @@
-var should = require('chai').should();
+var expect = require('chai').expect;
 var oanda = require('../lib/oanda');
 
-describe('#version', function() {
-  it('should be 1.0.0', function() {
-    oanda.version.should.equal('1.0.0');
-  });
+describe("oanda module.exports", function() {
+  it("should not be null", function() {
+    expect(oanda).not.to.be.null;
+  })
 });
