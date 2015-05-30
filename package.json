@@ -1,7 +1,7 @@
 {
   "name": "fxtrade",
   "version": "1.0.0",
-  "description": "OANDA REST API implementation",
+  "description": "OANDA fxTrade REST API implementation",
   "main": "index.js",
   "scripts": {
     "test": "node_modules/.bin/mocha",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ChrisKdon/oanda-node"
+    "url": "https://github.com/ChrisKdon/fxtrade-node"
   },
   "keywords": [
     "oanda",
@@ -21,9 +21,9 @@
   "author": "Chris Kellendonk",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ChrisKdon/oanda-node/issues"
+    "url": "https://github.com/ChrisKdon/fxtrade-node/issues"
   },
-  "homepage": "https://github.com/ChrisKdon/oanda-node",
+  "homepage": "https://github.com/ChrisKdon/fxtrade-node",
   "devDependencies": {
     "chai": "^2.3.0",
     "istanbul": "^0.3.14",
