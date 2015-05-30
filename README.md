@@ -80,7 +80,7 @@ fxTrade.labs().calendar({
 });
 
 fxTrade.accounts().info({
-  accountId: "4012914",
+  accountId: "123456",
 }).then(function(data) {
   console.log(data);
 }).catch(function(error) {
