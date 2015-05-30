@@ -29,6 +29,7 @@
     "mocha": "^2.2.5"
   },
   "dependencies": {
+    "promise": "^7.0.1",
     "restler": "^3.2.2",
     "underscore": "^1.8.3"
   }
