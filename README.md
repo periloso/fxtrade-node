@@ -66,7 +66,7 @@ The API follows the syntax of `fxTrade.<API Group>().<Action>(params)`. And each
 var FxTrade = require("./index"); // FxTrade entry
 
 // Practice
-var API_KEY = "ed81ece309615d0322c587ca9df27c23-f588e9129fc641367615bd5a974bf1a5";
+var API_KEY = "<YOUR fxTrade API-KEY>";
 
 var fxTrade = new FxTrade('practice', API_KEY);
 
@@ -79,12 +79,8 @@ fxTrade.labs().calendar({
   console.log("Error: ", error);
 });
 
-fxTrade.orders().create({
+fxTrade.accounts().info({
   accountId: "4012914",
-  instrument: "EUR_USD",
-  units: 100,
-  side: "buy",
-  type: "market"
 }).then(function(data) {
   console.log(data);
 }).catch(function(error) {
