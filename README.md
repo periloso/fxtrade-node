@@ -11,7 +11,6 @@ All the fxTrade REST API's are supported except for the streaming API.
 ```javascript
 var FxTrade = require("fxtrade");
 
-// Practice
 var API_KEY = "<Your OANDA FxTrade API KEY>";
 
 var fxTrade = new FxTrade('practice', API_KEY);
@@ -63,11 +62,12 @@ The API follows the syntax of `fxTrade.<API Group>().<Action>(params)`. And each
 
 **Example Code**
 ```javascript
-var FxTrade = require("fxtrade"); // FxTrade entry
+var FxTrade = require("fxtrade");
 
-// Practice
 var API_KEY = "<Your OANDA FxTrade API KEY>";
 
+// Available options are (live, practice, sandbox)
+// Note: sandbox does not need an API key but many of the API's will not work
 var fxTrade = new FxTrade('practice', API_KEY);
 
 fxTrade.labs().calendar({
