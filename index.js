@@ -1,3 +1,1 @@
-var Oanda = require("./lib/oanda");
-
-module.exports = Oanda;
+module.exports = require("./lib/fxtrade");

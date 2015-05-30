@@ -1,8 +1,8 @@
 var expect = require('chai').expect;
-var oanda = require('../lib/oanda');
+var fxtrade = require('../lib/fxtrade');
 
 describe("oanda module.exports", function() {
   it("should not be null", function() {
-    expect(oanda).not.to.be.null;
+    expect(fxtrade).not.to.be.null;
   })
 });
