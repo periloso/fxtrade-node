@@ -1,6 +1,6 @@
 {
   "name": "fxtrade",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "OANDA fxTrade REST API Implementation",
   "main": "index.js",
   "scripts": {

@@ -63,7 +63,7 @@ The API follows the syntax of `fxTrade.<API Group>().<Action>(params)`. And each
 
 **Example Code**
 ```javascript
-var FxTrade = require("./index"); // FxTrade entry
+var FxTrade = require("fxtrade"); // FxTrade entry
 
 // Practice
 var API_KEY = "<Your OANDA FxTrade API KEY>";
